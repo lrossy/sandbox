@@ -8,12 +8,12 @@ app.config(function ($routeProvider) {
     $routeProvider.when('/',
         {
             controller: 'SimpleController',
-            templateUrl: 'partials/View1.html'
+            templateUrl: 'partials/view1.html'
         })
         .when('/view2',
         {
             controller: 'SimpleController',
-            templateUrl: 'partials/View2.html'
+            templateUrl: 'partials/view2.html'
         })
         .otherwise({redirectTo: '/'});
 });
