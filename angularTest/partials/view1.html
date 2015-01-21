@@ -5,7 +5,7 @@
     <input type="text" data-ng-model="filter.name"/>
     <br/>
     <ul>
-        <li data-ng-repeat="cust in customers | filter:filter.name | orderBy:city"></li>
+        <li data-ng-repeat="cust in customers | filter:filter.name | orderBy:city">{{customers.name}}</li>
     </ul>
     <br/>
     Customer name<br/>
